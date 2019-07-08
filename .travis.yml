@@ -1,9 +1,9 @@
 language: ruby
-
 rvm:
-  - 1.9.2
-  - 1.9.3
-  - 2.0.0
   - 2.1.0
-
+  - 2.2.0
 script: bundle exec rake test
+notifications:
+  email: false
+  slack:
+    secure: ayC+bfwhdPSIDTvrdVN2KWH7H6gwXeBTyJky88byOi3yhLaWtXStvuOnJa5fMJyCvFYJGQB6ke2pbj3RBcj3tvch6rjyXWN8C/8PZ+C/hiwn+UwkxHe87ynpMfMVf0l78Fxh0AVv2VGvAwwVU14quCJ/MAjlApGEUV5apubUmyEFBeD09w3OWEXX/+roO9ffceKJVE5tcpG2JspLVw2R3QvDMNggENRtpEnjwvtf5xLMNJ087fwU1RZmgdVmiOEoEwfB/zn3Yyq44UNo3GJ2+rQ+DYGhetDY3BcyDknmJbReg1MPKxmlMhtHcxABqmoilFF8GDuvZ4JQZoPLMKes8MthTUQZYYV9bTozeEgR0bqANG84WHBn559RF1sn5LAGmkUkqF4MevCPcRejR3x5gSQVCsahqoLalw6eV4ckV1+BFOyo0AkE0S8od45StxInX4mf+BWYZ16IdNCjjmLjrjcCwZNo3CK95SQsFP5V+xKvLl/N0JpPjfrTG1pqaocK59uDLqu43YN+UxrWaLrqzAntVdqoLteP5RHrmodo0/LJXVBXzSynCxpyy9afETRwbcB4wyVBOmzTgDwmk7pgEa0C5bpsa+xcunhdngEFoUem39zc5prFvCYzvbYrmV5gyyNGcYi3/PLCAZM6BnxTrWeGSIl7xa7yv1AbphT8UL0=
