@@ -1,4 +1,6 @@
-class Fluent::Redis_SlowlogInput < Fluent::Input
+require 'fluent/plugin/input'
+
+class Fluent::Redis_SlowlogInput < Fluent::Plugin::Input
   Fluent::Plugin.register_input('redis_slowlog', self)
 
   config_param :tag,      :string
