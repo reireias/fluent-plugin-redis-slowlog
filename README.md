@@ -1,4 +1,5 @@
-# fluent-plugin-redis-slowlog [![Build Status](https://travis-ci.org/mominosin/fluent-plugin-redis-slowlog.svg?branch=master)](https://travis-ci.org/mominosin/fluent-plugin-redis-slowlog)
+[![Build Status](https://travis-ci.org/reireias/fluent-plugin-redis-slowlog.svg?branch=master)](https://travis-ci.org/reireias/fluent-plugin-redis-slowlog)
+# fluent-plugin-redis-slowlog
 
 ## Installation
 
@@ -7,7 +8,7 @@
 ## Configuration
 ```config
 <source>
-  type redis_slowlog
+  @type redis_slowlog
   host [Redis Hostname]
   port [Redis Port (default: 6379)]
   logsize  [Redis Command(SLOWLOG get logsise) (default:128)]
