@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/reireias/fluent-plugin-redis-slowlog.svg?branch=master)](https://travis-ci.org/reireias/fluent-plugin-redis-slowlog)
+![test](https://github.com/reireias/fluent-plugin-redis-slowlog/workflows/test/badge.svg)
 # fluent-plugin-redis-slowlog
 
 ## Installation
